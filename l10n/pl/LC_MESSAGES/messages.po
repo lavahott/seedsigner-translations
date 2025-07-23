@@ -134,18 +134,18 @@ msgstr "Sprawdź odbiorców"
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "input"
 msgid_plural "inputs"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "wiejście"
+msgstr[1] "wejścia"
+msgstr[2] "wejścia"
+msgstr[3] "wejścia"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "recipient"
 msgid_plural "recipients"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "odbiorca"
+msgstr[1] "odbiorcy"
+msgstr[2] "odbiorcy"
+msgstr[3] "odbiorcy"
 
 #. Denonination is inserted (e.g. your "btc change" or "sats change")
 #: src/seedsigner/gui/screens/psbt_screens.py
@@ -821,22 +821,22 @@ msgstr "Kolor tła kodu QR"
 #: src/seedsigner/views/psbt_views.py src/seedsigner/views/seed_views.py
 #: src/seedsigner/views/tools_views.py
 msgid "Scan a seed"
-msgstr "Przeskanuj seed"
+msgstr "Skanuj seed"
 
 #: src/seedsigner/views/psbt_views.py src/seedsigner/views/seed_views.py
 #: src/seedsigner/views/tools_views.py
 msgid "Enter 12-word seed"
-msgstr "Wprowadź 12-wyrazową frazę seed"
+msgstr "Podaj 12-wyrazowy seed"
 
 #: src/seedsigner/views/psbt_views.py src/seedsigner/views/seed_views.py
 #: src/seedsigner/views/tools_views.py
 msgid "Enter 24-word seed"
-msgstr "Wprowadź 24-wyrazową frazę seed"
+msgstr "Podaj 24-wyrazowy seed"
 
 #: src/seedsigner/views/psbt_views.py src/seedsigner/views/seed_views.py
 #: src/seedsigner/views/tools_views.py
 msgid "Enter Electrum seed"
-msgstr "Wprowadź seed Electrum"
+msgstr "Podaj seed Electrum"
 
 #. Inserts fingerprint w/"?" to indicate that this seed can't sign the current
 #. PSBT
@@ -961,7 +961,7 @@ msgstr "Podpisywanie nie powiodło się"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Signing with this seed did not add a valid signature."
-msgstr "Podpisanie się przy użyciu tego seed nie dodało prawidłowego podpisu."
+msgstr "Podpis z tego seed'a jest niepoprawny"
 
 #: src/seedsigner/views/scan_views.py
 msgid "Scan a QR code"
