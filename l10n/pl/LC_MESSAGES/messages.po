@@ -125,7 +125,7 @@ msgstr "reszta"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "PSBT Math"
-msgstr "PSBT matematyka"
+msgstr "Obliczenia PSBT"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "Review Recipients"
