@@ -115,7 +115,7 @@ msgstr "opłata"
 #: src/seedsigner/gui/screens/psbt_screens.py
 #: src/seedsigner/views/psbt_views.py
 msgid "OP_RETURN"
-msgstr "reszta"
+msgstr "OP_RETURN"
 
 #. Label for a change output in the PSBT Overview flow diagram
 #: src/seedsigner/gui/screens/psbt_screens.py
@@ -300,7 +300,7 @@ msgstr "Indeks BIP-85"
 
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "Verify Backup?"
-msgstr "Zweryfikować kopię zapasową?"
+msgstr "Zweryfikować backup?"
 
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "Optionally verify that your mnemonic backup is correct."
@@ -643,7 +643,7 @@ msgstr "Próg na poziomie 0,01"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "BTC | sats hybrid"
-msgstr "BTC | sats hybryda"
+msgstr "BTC | sats hybrid"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "0°"
@@ -863,7 +863,7 @@ msgstr "PSBT ma nieobsługiwany typ skryptu wejściowego, sprawdź adresy zmian.
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Continue"
-msgstr "Kontynuować"
+msgstr "Kontynuuj"
 
 #. User will receive no change back; the inputs to this transaction are fully
 #. spent
@@ -1231,7 +1231,7 @@ msgstr "Wszystkie słowa zostały pomyślnie zweryfikowane!"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Standard: 25x25"
-msgstr "Standard: 25x25"
+msgstr "Standardowy: 25x25"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Compact: 21x21"
@@ -1239,7 +1239,7 @@ msgstr "Kompaktowy: 21x21"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Standard: 29x29"
-msgstr "Standard: 29x29"
+msgstr "Standardowy: 29x29"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Compact: 25x25"
