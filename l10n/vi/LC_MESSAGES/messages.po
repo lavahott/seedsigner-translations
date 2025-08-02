@@ -66,15 +66,15 @@ msgstr "Kiểm tra thông tin"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "1 input"
-msgstr "1 thông tin đầu vào"
+msgstr "1 đầu vào"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "input 1"
-msgstr "thông tin đầu vào 1"
+msgstr "đầu vào 1"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "input 2"
-msgstr "thông tin đầu vào 2"
+msgstr "đầu vào 2"
 
 #. Indicates that items have been omitted from a series: e.g. "1, 2, 3, [...],
 #. 8"
@@ -85,7 +85,7 @@ msgstr "[ ... ]"
 #. Input number will be inserted (e.g. "input 3")
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "input {}"
-msgstr "thông tin đầu vào {}"
+msgstr "Đầu vào {}"
 
 #. Ellipsis ("...") characters used to truncate an address (e.g. "bc1qabc...")
 #: src/seedsigner/gui/screens/psbt_screens.py
@@ -133,7 +133,7 @@ msgstr "Kiểm tra người nhận"
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "input"
 msgid_plural "inputs"
-msgstr[0] "thông tin đầu vào"
+msgstr[0] "Các đầu vào"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "recipient"
@@ -415,7 +415,7 @@ msgstr "nhận địa chỉ"
 #. Describes the address index (e.g. "index 7")
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "index {}"
-msgstr "chỉ mục {}"
+msgstr "thứ {}"
 
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "Multisig Verification"
@@ -576,7 +576,7 @@ msgstr "Mặt sấp = 0"
 #. The additional entropy the user supplied (e.g. coin flips)
 #: src/seedsigner/gui/screens/tools_screens.py
 msgid "Your input: \"{}\""
-msgstr "Thông tin đầu vào: \"{}\""
+msgstr "Bạn nhập: \"{}\""
 
 #. A function of "x" to be used for detecting errors in "x"
 #: src/seedsigner/gui/screens/tools_screens.py
@@ -691,7 +691,7 @@ msgstr "Gắn thẻ SD để tiếp tục"
 #: src/seedsigner/models/settings_definition.py
 #: src/seedsigner/views/seed_views.py
 msgid "Single Sig"
-msgstr "Ký đơn"
+msgstr "Chữ ký đơn"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "Native Segwit"
@@ -703,7 +703,7 @@ msgstr "Segwit ghép"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "Legacy"
-msgstr "Bản di sản"
+msgstr "Bản truyền thống"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "Taproot"
@@ -838,7 +838,7 @@ msgstr "{} (?)"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Select Signer"
-msgstr "Chọn Signer"
+msgstr "Chọn người ký"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Parsing PSBT..."
@@ -1248,7 +1248,7 @@ msgstr "SeedQR là khóa riêng của bạn!"
 msgid ""
 "Never photograph or scan it into a device that connects to the internet."
 msgstr ""
-"Không chụp hìng hoặc quét mã với thiết bị có kết nối internet."
+"Không chụp hình hoặc quét mã với thiết bị có kết nối internet."
 
 #: src/seedsigner/views/seed_views.py
 msgid "Confirm SeedQR"
@@ -1441,7 +1441,7 @@ msgstr "Quét"
 
 #: src/seedsigner/views/view.py
 msgid "Seeds"
-msgstr "Các cụm từ khóa"
+msgstr "Từ khóa"
 
 #: src/seedsigner/views/view.py
 msgid "Restart"
