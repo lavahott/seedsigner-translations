@@ -862,7 +862,7 @@ msgstr "Tiếp tục"
 #. spent
 #: src/seedsigner/views/psbt_views.py
 msgid "Full Spend!"
-msgstr "Chi hết!"
+msgstr "Sử dụng hết!"
 
 #: src/seedsigner/views/psbt_views.py
 msgid ""
@@ -929,7 +929,7 @@ msgstr "PSBT đáng ngờ"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Address Verification Failed"
-msgstr "Không xác minh được địa chỉ"
+msgstr "Không xác thực được"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Discard PSBT"
@@ -1242,7 +1242,7 @@ msgstr "Định dạng mã SeedQR"
 
 #: src/seedsigner/views/seed_views.py
 msgid "SeedQR is your private key!"
-msgstr "SeedQR là khóa riêng của bạn!"
+msgstr "SeedQR là khóa riêng!"
 
 #: src/seedsigner/views/seed_views.py
 msgid ""
@@ -1445,11 +1445,11 @@ msgstr "Từ khóa"
 
 #: src/seedsigner/views/view.py
 msgid "Restart"
-msgstr "Khởi động lại"
+msgstr "Bật lại"
 
 #: src/seedsigner/views/view.py
 msgid "Power Off"
-msgstr "Tắt nguồn"
+msgstr "Tắt"
 
 #: src/seedsigner/views/view.py
 msgid "Reset / Power"
