@@ -555,7 +555,7 @@ msgid ""
 "The {mnemonic_length}th word is built from {num_bits} more entropy bits plus"
 " auto-calculated checksum."
 msgstr ""
-"{độ dài} của từ khóa được tạo từ {số đơn vị} đo lường ngẫu nhiên cùng với"
+"Từ khóa thứ {mnemonic_length} được tạo từ {num_bits} số ngẫu nhiên cùng với"
 " lệnh tính toán tự động."
 
 #. current coin-flip number vs total flips (e.g. flip 3 of 4)
