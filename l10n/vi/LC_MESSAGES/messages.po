@@ -4,8 +4,10 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 # 
 # Translators:
+# Keith Mukai, 2025
+# Tung D. DAO, 2025
 # Anh La, 2025
-#
+# 
 #, fuzzy
 msgid ""
 msgstr ""
@@ -13,6 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-01-28 13:28-0600\n"
 "PO-Revision-Date: 2022-04-29 13:50+0000\n"
+"Last-Translator: Anh La, 2025\n"
 "Language-Team: Vietnamese (https://app.transifex.com/seedsigner/teams/135832/vi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -62,7 +65,7 @@ msgstr "Kiểm tra PSBT"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "Review Details"
-msgstr "Kiểm tra thông tin"
+msgstr "Kiểm tra chi tiết"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "1 input"
@@ -138,7 +141,7 @@ msgstr[0] "Các đầu vào"
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "recipient"
 msgid_plural "recipients"
-msgstr[0] "người nhận"
+msgstr[0] "Những người nhận"
 
 #. Denonination is inserted (e.g. your "btc change" or "sats change")
 #: src/seedsigner/gui/screens/psbt_screens.py
@@ -167,7 +170,7 @@ msgstr "Địa chỉ đã xác nhận!"
 #. Shown when displaying OP_RETURN as non-human-readable hexadecimal data
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "raw hex data"
-msgstr "dữ liệu thô hex"
+msgstr "dữ liệu hex thô"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "Sign PSBT"
@@ -180,7 +183,7 @@ msgstr "Nhấn vào để chấp thuận giao dịch"
 #: src/seedsigner/gui/screens/scan_screens.py
 #: src/seedsigner/gui/screens/tools_screens.py
 msgid "back"
-msgstr "trở lại"
+msgstr "quay lại"
 
 #. Inserts the percentage value of the animated QR scan progress
 #: src/seedsigner/gui/screens/scan_screens.py
@@ -215,7 +218,7 @@ msgstr "Cảnh báo"
 
 #: src/seedsigner/gui/screens/screen.py src/seedsigner/views/seed_views.py
 msgid "Privacy Leak!"
-msgstr "Lò rỉ bảo mật!"
+msgstr "Rò rỉ bảo mật!"
 
 #: src/seedsigner/gui/screens/screen.py
 msgid "I Understand"
@@ -250,15 +253,15 @@ msgstr "Tắt nguồn"
 
 #: src/seedsigner/gui/screens/screen.py
 msgid "Please wait about 30 seconds before disconnecting power."
-msgstr "Vui lòng chờ 30 giây trước khi gắt nguồn điện"
+msgstr "Vui lòng chờ 30 giây trước khi ngắt nguồn điện"
 
 #: src/seedsigner/gui/screens/screen.py
 msgid "Just Unplug It"
-msgstr "Gỡ kết nối với thiết bị"
+msgstr "Ngắt kết nối với thiết bị"
 
 #: src/seedsigner/gui/screens/screen.py
 msgid "It is safe to disconnect power at any time."
-msgstr "An toàn và có thể gắt nguồn điện"
+msgstr "An toàn để ngắt nguồn điện bất cứ lúc nào"
 
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "Finalize Seed"
@@ -297,7 +300,7 @@ msgstr "Xác nhận khôi phục"
 
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "Optionally verify that your mnemonic backup is correct."
-msgstr "Tùy chọn xác nhận chính xác các từ khóa dự phòng"
+msgstr "Tùy chọn xác nhận rằng các từ khóa dự phòng đúng"
 
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "Derivation Path"
@@ -310,7 +313,7 @@ msgstr "Xuất Xpub"
 
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "Xpub Details"
-msgstr "Thông tin Xpub"
+msgstr "Chi tiết Xpub"
 
 #. Short for "BIP32 Master Fingerprint"
 #. a label for the shortened Key-id of a BIP-32 master HD wallet
@@ -335,7 +338,7 @@ msgstr "Xpub"
 #: src/seedsigner/models/settings_definition.py
 #: src/seedsigner/views/seed_views.py
 msgid "BIP-39 Passphrase"
-msgstr "Câu mật khẩu BIP-39"
+msgstr "Câu mật khẩu theo BIP-39"
 
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "Verify Passphrase"
@@ -350,7 +353,7 @@ msgstr "thay đổi dấu vân tay"
 #. Refers to the SeedQR type: Standard or Compact
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "Standard"
-msgstr "Mặc định chuẩn"
+msgstr "Tiêu chuẩn"
 
 #. Briefly explains the Standard SeedQR data format
 #: src/seedsigner/gui/screens/seed_screens.py
@@ -385,8 +388,8 @@ msgid ""
 "Optionally scan your transcribed SeedQR to confirm that it reads back "
 "correctly."
 msgstr ""
-"Tùy chọn quét mã SeedQR đã chuyển thể để xác nhận đã nhận diện "
-"một cách chính xác."
+"Tùy chọn quét mã SeedQR đã chuyển thể để xác nhận rằng đã nhận diện một cách"
+" chính xác."
 
 #: src/seedsigner/gui/screens/seed_screens.py
 #: src/seedsigner/views/seed_views.py src/seedsigner/views/tools_views.py
@@ -426,8 +429,8 @@ msgid ""
 "Load your multisig wallet descriptor to verify your receive/self-transfer or"
 " change address."
 msgstr ""
-"Tải thông tin của ví đa chữ ký của bạn để xác minh các giao dịch nhận/tự chuyển hay"
-" thay đổi địa chỉ."
+"Tải thông tin ví đa chữ ký của bạn để xác minh các giao dịch nhận/tự chuyển "
+"hay thay đổi địa chỉ."
 
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "Descriptor Loaded"
@@ -475,7 +478,7 @@ msgstr "Cài đặt"
 #. working properly
 #: src/seedsigner/gui/screens/settings_screens.py
 msgid "I/O Test"
-msgstr "Kiểm tra nhập/xuất"
+msgstr "Kiểm tra đầu vào/đầu ra"
 
 #. Blank the screen
 #: src/seedsigner/gui/screens/settings_screens.py
@@ -555,8 +558,8 @@ msgid ""
 "The {mnemonic_length}th word is built from {num_bits} more entropy bits plus"
 " auto-calculated checksum."
 msgstr ""
-"Từ khóa thứ {mnemonic_length} được tạo từ {num_bits} số ngẫu nhiên cùng với"
-" lệnh tính toán tự động."
+"Từ khóa thứ {mnemonic_length} được tạo từ {num_bits} số ngẫu nhiên cùng với "
+"lệnh tính toán tự động."
 
 #. current coin-flip number vs total flips (e.g. flip 3 of 4)
 #: src/seedsigner/gui/screens/tools_screens.py
@@ -686,7 +689,7 @@ msgstr "Lưu cài đặt trên thẻ SD"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "Insert SD card to enable"
-msgstr "Gắn thẻ SD để tiếp tục"
+msgstr "Gắn thẻ SD để cho phép"
 
 #: src/seedsigner/models/settings_definition.py
 #: src/seedsigner/views/seed_views.py
@@ -760,7 +763,7 @@ msgstr "Loại lệnh"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "Show xpub details"
-msgstr "Hiển thị thông tin xpub"
+msgstr "Hiển thị chi tiết xpub"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "BIP-39 passphrase"
@@ -869,8 +872,8 @@ msgid ""
 "This PSBT spends its entire input value. No change is coming back to your "
 "wallet."
 msgstr ""
-"PSBT này chi toàn bộ giá trị nhập vào. Sẽ không có tiền thừa trả lại vào "
-"ví của bạn."
+"PSBT này chi tiêu toàn bộ giá trị đầu vào. Sẽ không có tiền thừa trả lại vào"
+" ví của bạn."
 
 #. Future-tense used to indicate that this transaction will send this amount,
 #. as opposed to "Send" on its own which could be misread as an instant
@@ -907,7 +910,7 @@ msgstr "Xác nhận địa chỉ đa chữ ký"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Verifying Change..."
-msgstr "Xác nhận thay đổi..."
+msgstr "Xác nhận tiền thừa..."
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Verifying Self-Transfer..."
@@ -929,7 +932,7 @@ msgstr "PSBT đáng ngờ"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Address Verification Failed"
-msgstr "Không xác thực được"
+msgstr "Xác thực địa chỉ thất bại"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Discard PSBT"
@@ -1001,7 +1004,7 @@ msgstr "Chờ một mã QR địa chỉ"
 
 #: src/seedsigner/views/scan_views.py
 msgid "Unknown QR Type"
-msgstr "Không xác nhận loại mã QR"
+msgstr "Loại mã QR không nhận diện được"
 
 #: src/seedsigner/views/scan_views.py
 msgid "QRCode is invalid or is a data format not yet supported."
@@ -1072,7 +1075,7 @@ msgstr "Cụm từ khóa không hợp lệ!"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Checksum failure; not a valid seed phrase."
-msgstr "Lỗi kiểm tra tổng thể; không phải cụm từ khóa hợp lệ."
+msgstr "Lỗi kiểm tra tổng; không phải cụm từ khóa hợp lệ."
 
 #: src/seedsigner/views/seed_views.py
 msgid "Edit passphrase"
@@ -1141,7 +1144,9 @@ msgstr "Khởi tạo xpub..."
 
 #: src/seedsigner/views/seed_views.py
 msgid "You must keep your seed words private & away from all online devices."
-msgstr "Bạn phải bảo mật các từ khóa của mình khỏi mọi thiết bị kết nối internet."
+msgstr ""
+"Bạn phải bảo mật các từ khóa của mình và giữ nó tránh xa khỏi mọi thiết bị "
+"kết nối internet."
 
 #. Inserts the child index (e.g. "Child #0")
 #: src/seedsigner/views/seed_views.py
@@ -1247,8 +1252,7 @@ msgstr "SeedQR là khóa riêng!"
 #: src/seedsigner/views/seed_views.py
 msgid ""
 "Never photograph or scan it into a device that connects to the internet."
-msgstr ""
-"Không chụp hình hoặc quét mã với thiết bị có kết nối internet."
+msgstr "Không chụp hình hoặc quét mã với thiết bị có kết nối internet."
 
 #: src/seedsigner/views/seed_views.py
 msgid "Confirm SeedQR"
@@ -1278,7 +1282,7 @@ msgstr "Kiểm tra mã SeedQR"
 msgid ""
 "Your transcribed SeedQR successfully scanned and yielded the same seed."
 msgstr ""
-"Mã SeedQR chuyển thể đã quét thành công và khớp đúng với cụm từ khóa gốc của bạn."
+"Mã SeedQR chuyển thể đã quét thành công và khớp với cụm từ khóa gốc của bạn."
 
 #: src/seedsigner/views/seed_views.py
 msgid "Your transcribed SeedQR could not be read!"
@@ -1286,7 +1290,7 @@ msgstr "Không đọc được mã SeedQR đã chuyển thể!"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Sig type can't be auto-detected from this address. Please specify:"
-msgstr "Không thể nhận diện loại chữ ký từ địa chỉ này. Vui lòng chỉ định:"
+msgstr "Không thể nhận diện loại chữ ký từ địa chỉ này. Vui lòng chỉ rõ:"
 
 #. Option when scanning for a matching address; skips ten addresses ahead
 #: src/seedsigner/views/seed_views.py
@@ -1315,7 +1319,7 @@ msgstr "Ký tin nhắn cho đường dẫn xuất tùy chỉnh không được h
 
 #: src/seedsigner/views/settings_views.py
 msgid "I/O test"
-msgstr "Kiểm tra nhập/xuất"
+msgstr "Kiểm tra đầu vào/đầu ra"
 
 #: src/seedsigner/views/settings_views.py
 msgid "Advanced"
@@ -1453,7 +1457,7 @@ msgstr "Tắt"
 
 #: src/seedsigner/views/view.py
 msgid "Reset / Power"
-msgstr "Cài đặt lại / Nguồn"
+msgstr "Thiết lập lại / Nguồn"
 
 #: src/seedsigner/views/view.py
 msgid "This is still on our to-do list!"
