@@ -64,7 +64,7 @@ msgid "Review PSBT"
 msgstr "Kiểm tra PSBT"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
-msgid "Review Details"
+msgid "Review details"
 msgstr "Kiểm tra chi tiết"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
@@ -130,7 +130,7 @@ msgid "PSBT Math"
 msgstr "Thuật toán PSBT"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
-msgid "Review Recipients"
+msgid "Review recipients"
 msgstr "Kiểm tra người nhận"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
@@ -221,7 +221,7 @@ msgid "Privacy Leak!"
 msgstr "Rò rỉ bảo mật!"
 
 #: src/seedsigner/gui/screens/screen.py
-msgid "I Understand"
+msgid "I understand"
 msgstr "Tôi hiểu"
 
 #: src/seedsigner/gui/screens/screen.py
@@ -276,7 +276,7 @@ msgstr "dấu vân tay"
 
 #: src/seedsigner/gui/screens/seed_screens.py
 #: src/seedsigner/views/seed_views.py
-msgid "Backup Seed"
+msgid "Backup seed"
 msgstr "Khôi phục cụm từ khóa"
 
 #. Additional explainer for the two seed backup options (mnemonic phrase and
@@ -308,7 +308,7 @@ msgstr "Đường dẫn tạo địa chỉ"
 
 #: src/seedsigner/gui/screens/seed_screens.py
 #: src/seedsigner/views/seed_views.py
-msgid "Export Xpub"
+msgid "Export xpub"
 msgstr "Xuất Xpub"
 
 #: src/seedsigner/gui/screens/seed_screens.py
@@ -393,7 +393,7 @@ msgstr ""
 
 #: src/seedsigner/gui/screens/seed_screens.py
 #: src/seedsigner/views/seed_views.py src/seedsigner/views/tools_views.py
-msgid "Verify Address"
+msgid "Verify address"
 msgstr "Xác nhận địa chỉ"
 
 #. Inserts the nth address number (e.g. "Checking address 7")
@@ -462,7 +462,7 @@ msgstr "Xác nhận địa chỉ"
 
 #: src/seedsigner/gui/screens/seed_screens.py
 #: src/seedsigner/views/seed_views.py
-msgid "Sign Message"
+msgid "Sign message"
 msgstr "Ký tin nhắn"
 
 #: src/seedsigner/gui/screens/seed_screens.py
@@ -604,7 +604,7 @@ msgstr "Từ thứ 24"
 #. a label for the tool to explore public addresses for this seed.
 #: src/seedsigner/gui/screens/tools_screens.py
 #: src/seedsigner/views/seed_views.py src/seedsigner/views/tools_views.py
-msgid "Address Explorer"
+msgid "Address explorer"
 msgstr "Trình duyệt tìm địa chỉ"
 
 #. a label for a BIP-380-ish Output Descriptor
@@ -884,15 +884,15 @@ msgid "Will Send"
 msgstr "Sẽ gửi"
 
 #: src/seedsigner/views/psbt_views.py
-msgid "Next Recipient"
+msgid "Next recipient"
 msgstr "Người nhận kế tiếp"
 
 #: src/seedsigner/views/psbt_views.py
-msgid "Skip Verification"
+msgid "Skip verification"
 msgstr "Bỏ qua xác nhận"
 
 #: src/seedsigner/views/psbt_views.py
-msgid "Verify Multisig Change"
+msgid "Verify multisig change"
 msgstr "Xác nhận thay đổi đa chữ ký"
 
 #. The amount you're receiving back from the transaction
@@ -943,7 +943,7 @@ msgid "Approve PSBT"
 msgstr "Chấp nhận PSBT"
 
 #: src/seedsigner/views/psbt_views.py
-msgid "Select Diff Seed"
+msgid "Select diff seed"
 msgstr "Chọn cụm từ khóa khác"
 
 #: src/seedsigner/views/psbt_views.py
@@ -1062,7 +1062,7 @@ msgid "Seed Word #{}"
 msgstr "Từ khóa #{}"
 
 #: src/seedsigner/views/seed_views.py
-msgid "Review & Edit"
+msgid "Review & edit"
 msgstr "Kiểm tra và chỉnh sửa"
 
 #: src/seedsigner/views/seed_views.py src/seedsigner/views/tools_views.py
@@ -1094,7 +1094,7 @@ msgid "Your current passphrase entry will be erased"
 msgstr "Câu mật khẩu của bạn sẽ bị xóa"
 
 #: src/seedsigner/views/seed_views.py
-msgid "Keep Seed"
+msgid "Keep seed"
 msgstr "Giữ cụm từ khóa"
 
 #. Inserts the seed fingerprint
@@ -1103,7 +1103,7 @@ msgid "Wipe seed {} from the device?"
 msgstr "Xóa cụm từ khóa {} khỏi thiết bị?"
 
 #: src/seedsigner/views/seed_views.py
-msgid "Discard Seed?"
+msgid "Discard seed?"
 msgstr "Hủy cụm từ khóa?"
 
 #: src/seedsigner/views/seed_views.py
@@ -1127,7 +1127,7 @@ msgid "Discard Seed"
 msgstr "Hủy cụm từ khóa"
 
 #: src/seedsigner/views/seed_views.py
-msgid "View Seed Words"
+msgid "View seed words"
 msgstr "Hiển thị cụm từ khóa"
 
 #: src/seedsigner/views/seed_views.py
@@ -1182,7 +1182,7 @@ msgid "BIP-85 Child Index must be between 0 and 2^31-1."
 msgstr "Chỉ mục thứ cấp BIP-85 phải nằm trong khoảng từ 0 đến 2^31-1."
 
 #: src/seedsigner/views/seed_views.py
-msgid "Try Again"
+msgid "Try again"
 msgstr "Thử lại"
 
 #: src/seedsigner/views/seed_views.py
@@ -1199,7 +1199,7 @@ msgid "Verify Word #{}"
 msgstr "Xác nhận từ #{}"
 
 #: src/seedsigner/views/seed_views.py
-msgid "Review Seed Words"
+msgid "Review seed words"
 msgstr "Kiểm tra các từ khóa"
 
 #. Inserts the word number and the word (e.g. "Word #1 is not "apple"!")
@@ -1405,12 +1405,12 @@ msgstr "Quét thông tin ví"
 
 #. label for addresses where others send us incoming payments
 #: src/seedsigner/views/tools_views.py
-msgid "Receive Addresses"
+msgid "Receive addresses"
 msgstr "Nhận các địa chỉ"
 
 #. label for addresses that collect the change from our own outgoing payments
 #: src/seedsigner/views/tools_views.py
-msgid "Change Addresses"
+msgid "Change addresses"
 msgstr "Thay đổi các địa chỉ"
 
 #. a status message that our payment addresses are being calculated
@@ -1472,7 +1472,7 @@ msgid "Not Yet Implemented"
 msgstr "Chưa triển khai"
 
 #: src/seedsigner/views/view.py
-msgid "Back to Main Menu"
+msgid "Back to main menu"
 msgstr "Quay về Menu chính"
 
 #. The network setting (mainnet/testnet/regtest) doesn't match the provided
@@ -1496,7 +1496,7 @@ msgid "System Error"
 msgstr "Lỗi hệ thống"
 
 #: src/seedsigner/views/view.py
-msgid "Update Setting"
+msgid "Update setting"
 msgstr "Cập nhật cài đặt"
 
 #. Inserts the name of a settings option (e.g. "Persistent Settings" is
