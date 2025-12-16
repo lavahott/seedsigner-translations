@@ -47,23 +47,23 @@ msgid ""
 "the SD card now"
 msgstr ""
 "Możesz wyjąć \n"
-"kartę SD"
+"kartę SD."
 
 #: src/seedsigner/gui/toast.py
 msgid "SD card removed"
-msgstr "Wyjęto kartę SD"
+msgstr "Wyjęto kartę SD."
 
 #: src/seedsigner/gui/toast.py
 msgid "SD card inserted"
-msgstr "Włożono kartę SD"
+msgstr "Włożono kartę SD."
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "Review Transaction"
-msgstr "Sprawdź transakcję"
+msgstr "Sprawdź transakcję."
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "Review details"
-msgstr "Sprawdź szczegóły"
+msgstr "Sprawdź szczegóły."
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "1 input"
@@ -125,7 +125,7 @@ msgstr "reszta"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "Transaction Math"
-msgstr "Obliczenia transakcji"
+msgstr "Obliczenia transakcji."
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "Review recipients"
@@ -178,11 +178,11 @@ msgstr "surowe dane hex"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "Sign Transaction"
-msgstr "Podpisz transakcję"
+msgstr "Podpisz transakcję."
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "Click to approve this transaction"
-msgstr "Kliknij aby zatwierdzić transakcję"
+msgstr "Kliknij aby zatwierdzić transakcję."
 
 #: src/seedsigner/gui/screens/scan_screens.py
 #: src/seedsigner/gui/screens/tools_screens.py
@@ -218,15 +218,15 @@ msgstr "OK"
 
 #: src/seedsigner/gui/screens/screen.py
 msgid "Caution"
-msgstr "Uwaga"
+msgstr "Uwaga!"
 
 #: src/seedsigner/gui/screens/screen.py src/seedsigner/views/seed_views.py
 msgid "Privacy Leak!"
-msgstr "Dane wrażliwe"
+msgstr "Dane wrażliwe!"
 
 #: src/seedsigner/gui/screens/screen.py
 msgid "I understand"
-msgstr "Rozumiem"
+msgstr "Rozumiem."
 
 #: src/seedsigner/gui/screens/screen.py
 msgid "Classified Info!"
@@ -562,7 +562,7 @@ msgid ""
 " auto-calculated checksum."
 msgstr ""
 "{mnemonic_length} słowo zawiera {num_bits} bitów entropii i automatyczną "
-"sumę kontrolną"
+"sumę kontrolną."
 
 #. current coin-flip number vs total flips (e.g. flip 3 of 4)
 #: src/seedsigner/gui/screens/tools_screens.py
@@ -944,7 +944,7 @@ msgstr "Weryfikowanie przelewu własnego..."
 #. Variable is either "change" or "self-transfer".
 #: src/seedsigner/views/psbt_views.py
 msgid "Transaction's {} address could not be verified from wallet descriptor."
-msgstr "Adres transakcji {} nie mógł być zweryfikowany względem portfela"
+msgstr "Adres transakcji {} nie mógł być zweryfikowany względem portfela."
 
 #. Variable is either "change" or "self-transfer".
 #: src/seedsigner/views/psbt_views.py
@@ -981,7 +981,7 @@ msgstr "Podpisywanie nieudane"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Signing with this seed did not add a valid signature."
-msgstr "Podpis z tego Seed'a jest niepoprawny"
+msgstr "Podpis z tego Seed'a jest niepoprawny."
 
 #: src/seedsigner/views/scan_views.py
 msgid "Scan a QR code"
@@ -1367,7 +1367,7 @@ msgstr "Powrót do transakcji"
 #: src/seedsigner/views/seed_views.py
 msgid "Signing messages for custom derivation paths not supported"
 msgstr ""
-"Podpisywanie wiadomości dla niestandardowych ścieżek nie jest obsługiwane"
+"Podpisywanie wiadomości dla niestandardowych ścieżek nie jest obsługiwane."
 
 #: src/seedsigner/views/settings_views.py
 msgid "Advanced"
@@ -1391,7 +1391,7 @@ msgstr "Ustawienia trwałe włączone. Zapisano na karcie SD."
 
 #: src/seedsigner/views/settings_views.py
 msgid "Settings updated in temporary memory"
-msgstr "Ustawienia zaktualizowane w pamięci tymczasowej"
+msgstr "Ustawienia zaktualizowane w pamięci tymczasowej."
 
 #: src/seedsigner/views/tools_views.py
 msgid "New seed"
@@ -1564,7 +1564,7 @@ msgstr "Kamera niedostępna"
 
 #: src/seedsigner/views/view.py
 msgid "Disconnect power and check for a loose camera connection."
-msgstr "Wyłącz zasilanie i sprawdź połączenie kamery"
+msgstr "Wyłącz zasilanie i sprawdź połączenie kamery."
 
 #: src/seedsigner/views/view.py
 msgid "Update setting"
