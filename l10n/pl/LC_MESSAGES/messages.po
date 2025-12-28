@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: seedsigner 0.8.6\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-12-14 11:40-0600\n"
+"POT-Creation-Date: 2025-12-26 07:32-0600\n"
 "PO-Revision-Date: 2022-04-29 13:50+0000\n"
 "Last-Translator: Adargentum Adargentum, 2025\n"
 "Language-Team: Polish (https://app.transifex.com/seedsigner/teams/135832/pl/)\n"
@@ -152,20 +152,22 @@ msgstr[3] "odbiorcy"
 msgid "{} change"
 msgstr "{} reszty"
 
+#. Describes the address type (change or receive)
 #: src/seedsigner/gui/screens/psbt_screens.py
-#: src/seedsigner/models/settings_definition.py
-#: src/seedsigner/views/seed_views.py
-msgid "Multisig"
-msgstr "Multisig"
+#: src/seedsigner/gui/screens/seed_screens.py
+msgid "change address"
+msgstr "Adres reszty"
 
+#. Describes the address type (change or receive)
 #: src/seedsigner/gui/screens/psbt_screens.py
-msgid "Change"
-msgstr "Reszta"
+#: src/seedsigner/gui/screens/seed_screens.py
+msgid "receive address"
+msgstr "adres odbioru"
 
-#. Abbreviation for receive address
+#. Symbol for index number, e.g. "address #3"
 #: src/seedsigner/gui/screens/psbt_screens.py
-msgid "Addr"
-msgstr "Adres"
+msgid "#"
+msgstr "#"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "Address verified!"
@@ -252,14 +254,6 @@ msgstr ""
 "Wszystkie dane w pamięci zostaną usunięte."
 
 #: src/seedsigner/gui/screens/screen.py
-msgid "Powering Off"
-msgstr "Wyłączanie"
-
-#: src/seedsigner/gui/screens/screen.py
-msgid "Please wait about 30 seconds before disconnecting power."
-msgstr "Odczekaj 30 sekund przed odłączeniem zasilania."
-
-#: src/seedsigner/gui/screens/screen.py
 msgid "Just Unplug It"
 msgstr "Odłącz"
 
@@ -277,17 +271,6 @@ msgstr "Zakończ Seed"
 #: src/seedsigner/views/seed_views.py
 msgid "fingerprint"
 msgstr "fingerprint"
-
-#: src/seedsigner/gui/screens/seed_screens.py
-#: src/seedsigner/views/seed_views.py
-msgid "Backup Seed"
-msgstr "Kopia Seed"
-
-#. Additional explainer for the two seed backup options (mnemonic phrase and
-#. SeedQR).
-#: src/seedsigner/gui/screens/seed_screens.py
-msgid "Backups do not include your passphrase."
-msgstr "Kopie zapasowe nie zawierają Twojego hasła."
 
 #. Displays the page number and total: (e.g. page 1 of 6)
 #: src/seedsigner/gui/screens/seed_screens.py
@@ -407,16 +390,6 @@ msgstr "Sprawdzanie adresu {}"
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "Address Verified"
 msgstr "Adres zweryfikowany"
-
-#. Describes the address type (change or receive)
-#: src/seedsigner/gui/screens/seed_screens.py
-msgid "change address"
-msgstr "Adres reszty"
-
-#. Describes the address type (change or receive)
-#: src/seedsigner/gui/screens/seed_screens.py
-msgid "receive address"
-msgstr "adres odbioru"
 
 #. Describes the address index (e.g. "index 7")
 #: src/seedsigner/gui/screens/seed_screens.py
@@ -620,10 +593,6 @@ msgstr "Deskryptor portfela"
 msgid "Next {}"
 msgstr "Następny {}"
 
-#: src/seedsigner/hardware/camera.py
-msgid "Camera error. Check camera connections."
-msgstr "Błąd kamery. Sprawdź połączenie."
-
 #: src/seedsigner/models/settings_definition.py
 msgid "Enabled"
 msgstr "Włączony"
@@ -707,6 +676,11 @@ msgstr "Włóż kartę SD, aby włączyć"
 #: src/seedsigner/views/seed_views.py
 msgid "Single Sig"
 msgstr "Single Sig"
+
+#: src/seedsigner/models/settings_definition.py
+#: src/seedsigner/views/seed_views.py
+msgid "Multisig"
+msgstr "Multisig"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "Native Segwit"
@@ -930,8 +904,8 @@ msgid "Self-Transfer"
 msgstr "Przelew własny"
 
 #: src/seedsigner/views/psbt_views.py
-msgid "Verify Multisig Addr"
-msgstr "Zweryfikuj adres Multisig"
+msgid "Verify multisig addr"
+msgstr "Weryfikuj adres multisig"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Verifying Change..."
@@ -968,8 +942,8 @@ msgid "Approve transaction"
 msgstr "Zatwierdź transakcję"
 
 #: src/seedsigner/views/psbt_views.py
-msgid "Select diff seed"
-msgstr "Wybierz diff seed"
+msgid "Select different seed"
+msgstr "Załaduj inny seed"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Transaction Error"
@@ -1081,8 +1055,8 @@ msgid "Create a seed"
 msgstr "Utwórz Seed"
 
 #: src/seedsigner/views/seed_views.py
-msgid "Load A Seed"
-msgstr "Załaduj Seed"
+msgid "Load a Seed"
+msgstr "Załaduj seed"
 
 #. Inserts the word number (e.g. "Seed Word #6")
 #: src/seedsigner/views/seed_views.py
@@ -1151,7 +1125,7 @@ msgid "Discard Seed?"
 msgstr "Odrzucić Seed?"
 
 #: src/seedsigner/views/seed_views.py
-msgid "Electrum warning"
+msgid "Electrum Warning"
 msgstr "Ostrzeżenie Electrum"
 
 #: src/seedsigner/views/seed_views.py
@@ -1161,10 +1135,6 @@ msgstr "Niektóre funkcje są wyłączone dla Seed Electrum."
 #: src/seedsigner/views/seed_views.py
 msgid "Scan transaction"
 msgstr "Skanuj transakcję"
-
-#: src/seedsigner/views/seed_views.py
-msgid "Verify addr"
-msgstr "Zweryfikuj adres"
 
 #: src/seedsigner/views/seed_views.py src/seedsigner/views/tools_views.py
 msgid "Address explorer"
@@ -1189,6 +1159,10 @@ msgstr "Wyświetl słowa seed"
 #: src/seedsigner/views/seed_views.py
 msgid "Export as SeedQR"
 msgstr "Eksportuj jako SeedQR"
+
+#: src/seedsigner/views/seed_views.py
+msgid "Backup Seed"
+msgstr "Kopia Seed"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Export Xpub"
@@ -1365,6 +1339,10 @@ msgid "Return to transaction"
 msgstr "Powrót do transakcji"
 
 #: src/seedsigner/views/seed_views.py
+msgid "Verify addr"
+msgstr "Zweryfikuj adres"
+
+#: src/seedsigner/views/seed_views.py
 msgid "Signing messages for custom derivation paths not supported"
 msgstr ""
 "Podpisywanie wiadomości dla niestandardowych ścieżek nie jest obsługiwane."
@@ -1418,8 +1396,8 @@ msgid "24 words"
 msgstr "24 słowa"
 
 #: src/seedsigner/views/tools_views.py
-msgid "Mnemonic Length?"
-msgstr "Długość frazy mnemonicznej?"
+msgid "Mnemonic Length"
+msgstr "Długość frazy mnemonicznej"
 
 #: src/seedsigner/views/tools_views.py
 msgid "Calculating..."
@@ -1434,10 +1412,6 @@ msgstr "12 słów ({} rzutów kostką)"
 #: src/seedsigner/views/tools_views.py
 msgid "24 words ({} rolls)"
 msgstr "24 słowa ({} rzutów kostką)"
-
-#: src/seedsigner/views/tools_views.py
-msgid "Mnemonic Length"
-msgstr "Długość frazy mnemonicznej"
 
 #. Label to gather entropy through coin tosses
 #: src/seedsigner/views/tools_views.py
