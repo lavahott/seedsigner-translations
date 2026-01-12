@@ -401,13 +401,11 @@ msgstr "Multisig-verificatie"
 msgid ""
 "Load your multisig wallet descriptor to verify your receive/self-transfer or"
 " change address."
-msgstr ""
-"Laad multisig wallet-beschrijving om je ontvangst-/eigen- of wisselgeldadres"
-" te verifiëren."
+msgstr "Laad je multisig wallet descriptor om adressen te verifiëren."
 
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "Descriptor Loaded"
-msgstr "Beschrijving geladen"
+msgstr "Descriptor geladen"
 
 #. Label for the multisig wallet's signing policy (e.g. 2-of-3)
 #: src/seedsigner/gui/screens/seed_screens.py
@@ -583,7 +581,7 @@ msgstr "Adresverkenner"
 #. a label for a BIP-380-ish Output Descriptor
 #: src/seedsigner/gui/screens/tools_screens.py
 msgid "Wallet descriptor"
-msgstr "Wallet-beschrijving"
+msgstr "Wallet descriptor"
 
 #. Insert the number of addrs displayed per screen (e.g. "Next 10")
 #: src/seedsigner/gui/screens/tools_screens.py
@@ -875,7 +873,7 @@ msgstr ""
 #. (e.g. "Send Now").
 #: src/seedsigner/views/psbt_views.py
 msgid "Will Send"
-msgstr "Zal verzenden"
+msgstr "Te verzenden"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Next recipient"
@@ -984,11 +982,11 @@ msgstr "Verwachtte een SeedQR"
 
 #: src/seedsigner/views/scan_views.py src/seedsigner/views/seed_views.py
 msgid "Scan descriptor"
-msgstr "Scan beschrijving"
+msgstr "Scan descriptor"
 
 #: src/seedsigner/views/scan_views.py
 msgid "Expected a wallet descriptor QR"
-msgstr "Verwachtte een wallet-beschrijving QR"
+msgstr "Wallet descriptor-QR verwacht"
 
 #: src/seedsigner/views/scan_views.py
 msgid "Scan address QR"
@@ -1442,7 +1440,7 @@ msgstr "Laad seed"
 
 #: src/seedsigner/views/tools_views.py
 msgid "Scan wallet descriptor"
-msgstr "Scan wallet-beschrijving"
+msgstr "Scan wallet descriptor"
 
 #. label for addresses where others send us incoming payments
 #: src/seedsigner/views/tools_views.py
@@ -1466,7 +1464,7 @@ msgstr ""
 
 #: src/seedsigner/views/tools_views.py
 msgid "Single sig descriptors not yet supported"
-msgstr "Single sig-beschrijvingen worden nog niet ondersteund"
+msgstr "Single-sig descriptors worden nog niet ondersteund"
 
 #: src/seedsigner/views/tools_views.py
 msgid "Receive Addrs"
