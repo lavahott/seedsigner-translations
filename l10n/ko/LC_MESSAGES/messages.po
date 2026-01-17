@@ -180,7 +180,7 @@ msgstr "트랜잭션 서명"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "Click to approve this transaction"
-msgstr "클릭하여 이 거래에 서명하세요."
+msgstr "클릭하여 거래에 서명하세요."
 
 #: src/seedsigner/gui/screens/scan_screens.py
 #: src/seedsigner/gui/screens/tools_screens.py
@@ -245,7 +245,7 @@ msgid ""
 "\n"
 "All in-memory data will be wiped."
 msgstr ""
-"시드사이너가 재시작 중 입니다. \n"
+"시드사이너가 재시작 중입니다. \n"
 "\n"
 "메모리에 있는 모든 데이터는 삭제됩니다."
 
@@ -340,7 +340,7 @@ msgstr "표준"
 #. Briefly explains the Standard SeedQR data format
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "BIP-39 wordlist indices"
-msgstr "BIP-39 단어 번호"
+msgstr "BIP-39 단어"
 
 #. Refers to the SeedQR type: Standard or Compact
 #: src/seedsigner/gui/screens/seed_screens.py
@@ -363,13 +363,13 @@ msgstr "{}x{} 시작"
 
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "click to exit"
-msgstr "아무 버튼이나 누르면 종료됩니다"
+msgstr "아무 버튼 누르면 종료"
 
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid ""
 "Optionally scan your transcribed SeedQR to confirm that it reads back "
 "correctly."
-msgstr "(선택) 기록한 시드QR을 스캔하여 올바르게 읽히는지 확인합니다."
+msgstr "(선택) 기록한 시드QR을 스캔해 올바른지 확인합니다."
 
 #: src/seedsigner/gui/screens/seed_screens.py
 #: src/seedsigner/views/seed_views.py
@@ -398,7 +398,9 @@ msgstr "다중서명 검증"
 msgid ""
 "Load your multisig wallet descriptor to verify your receive/self-transfer or"
 " change address."
-msgstr "멀티시그 지갑 descriptor를 불러와 입금 주소(나에게 송금 포함)와 잔돈 주소를 확인합니다."
+msgstr ""
+"다중서명 지갑 descriptor를 불러와 '나에게 송금'을 포함한 입금·잔돈 주소를 확인합니다.\n"
+" "
 
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "Descriptor Loaded"
@@ -478,9 +480,9 @@ msgid ""
 "\n"
 "Donate onchain or LN at:"
 msgstr ""
-"시드사이너는 100%% 무료 오픈 소스이며, 비트코인 커뮤니티의 자금으로만 운영됩니다.\n"
+"시드사이너는 100%% 무료 오픈 소스이며, 비트코인 커뮤니티의 후원으로 운영됩니다.\n"
 "\n"
-"온체인 또는 LN으로 기부하세요:"
+"온체인 또는 LN 기부:"
 
 #: src/seedsigner/gui/screens/settings_screens.py
 #: src/seedsigner/views/settings_views.py
@@ -525,7 +527,7 @@ msgstr "마지막 단어 선택"
 msgid ""
 "The {mnemonic_length}th word is built from {num_bits} more entropy bits plus"
 " auto-calculated checksum."
-msgstr "{mnemonic_length} 번째 단어는 추가 {num_bits} 비트의 엔트로피와 자동 계산된 체크섬으로 구성됩니다."
+msgstr "{mnemonic_length}번째 단어는 {num_bits}비트의 추가 엔트로피와 자동 계산된 체크섬으로 구성됩니다."
 
 #. current coin-flip number vs total flips (e.g. flip 3 of 4)
 #: src/seedsigner/gui/screens/tools_screens.py
@@ -836,13 +838,13 @@ msgstr "PSBT 분석 중..."
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Unsupported Script Type!"
-msgstr "지원되지 않는 스크립트 유형!"
+msgstr "미지원 스크립트 유형!"
 
 #: src/seedsigner/views/psbt_views.py
 msgid ""
 "Transaction has unsupported input script type, please verify your change "
 "addresses."
-msgstr "PSBT에 지원되지 않는 스크립트 유형이 있습니다. 잔돈 주소를 확인하세요."
+msgstr "지원되지 않는 입력 스크립트가 있습니다. 잔돈 주소를 확인하세요."
 
 #: src/seedsigner/views/psbt_views.py src/seedsigner/views/view.py
 msgid "Continue"
@@ -858,7 +860,7 @@ msgstr "전액 사용!"
 msgid ""
 "This transaction spends its entire input value. No change is coming back to "
 "your wallet."
-msgstr "이 거래는 입력 값 전부를 사용하며, 잔돈은 반환되지 않습니다."
+msgstr "입력 값 전액을 사용하며, 잔돈은 없습니다."
 
 #. Future-tense used to indicate that this transaction will send this amount,
 #. as opposed to "Send" on its own which could be misread as an instant
@@ -866,7 +868,7 @@ msgstr "이 거래는 입력 값 전부를 사용하며, 잔돈은 반환되지 
 #. (e.g. "Send Now").
 #: src/seedsigner/views/psbt_views.py
 msgid "Will Send"
-msgstr "전송 예정"
+msgstr "보낼 금액"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Next recipient"
@@ -904,16 +906,16 @@ msgstr "나에게 송금 검증 중..."
 #. Variable is either "change" or "self-transfer".
 #: src/seedsigner/views/psbt_views.py
 msgid "Transaction's {} address could not be verified from wallet descriptor."
-msgstr "지갑 descriptor로 트랜잭션의 {} 주소를 검증할 수 없습니다."
+msgstr "지갑 descriptor에서 {} 주소를 검증할 수 없습니다."
 
 #. Variable is either "change" or "self-transfer".
 #: src/seedsigner/views/psbt_views.py
 msgid "Transaction's {} address could not be generated from your seed."
-msgstr "시드로부터 트랜잭션의 {} 주소를 생성할 수 없습니다."
+msgstr "시드에서 {} 주소를 생성할 수 없습니다."
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Suspicious Transaction"
-msgstr "확인이 필요한 트랜잭션"
+msgstr "확인 필요 트랜잭션"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Address Verification Failed"
@@ -941,7 +943,7 @@ msgstr "서명 실패"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Signing with this seed did not add a valid signature."
-msgstr "시드로 서명했으나 유효한 서명이 추가되지 않았습니다."
+msgstr "이 시드로 서명했지만 유효하지 않습니다."
 
 #: src/seedsigner/views/scan_views.py
 msgid "Scan a QR code"
@@ -1063,7 +1065,7 @@ msgstr "잘못된 니모닉!"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Checksum failure; not a valid seed phrase."
-msgstr "체크섬 오류: 유효한 시드가 아닙니다"
+msgstr "체크섬 오류; 유효한 시드가 아닙니다"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Done"
@@ -1071,11 +1073,11 @@ msgstr "완료"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Edit passphrase"
-msgstr "패스프레이즈 편집"
+msgstr "편집"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Discard passphrase"
-msgstr "패스프레이즈 폐기"
+msgstr "폐기"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Skip passphrase"
@@ -1083,11 +1085,11 @@ msgstr "패스프레이즈 건너뛰기"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Discard passphrase?"
-msgstr "패스프레이즈를 폐기할까요?"
+msgstr "폐기할까요?"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Your current passphrase entry will be erased."
-msgstr "현재 입력한 패스프레이즈는 삭제됩니다."
+msgstr "입력한 패스프레이즈가 삭제됩니다."
 
 #: src/seedsigner/views/seed_views.py
 msgid "Skip passphrase?"
@@ -1108,7 +1110,7 @@ msgstr "기기에서 시드 {}를 삭제할까요?"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Discard Seed?"
-msgstr "시드를 폐기할까요?"
+msgstr "폐기할까요?"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Electrum Warning"
@@ -1156,7 +1158,7 @@ msgstr "Xpub 내보내기"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Xpub can be used to view all future transactions."
-msgstr "제3자가 Xpub을 알게 되면, 이후 모든 거래 내역을 볼 수 있습니다."
+msgstr "제3자가 Xpub을 알게 되면, 모든 거래 내역을 볼 수 있습니다."
 
 #: src/seedsigner/views/seed_views.py
 msgid "Generating xpub..."
@@ -1164,7 +1166,7 @@ msgstr "Xpub 생성중..."
 
 #: src/seedsigner/views/seed_views.py
 msgid "You must keep your seed words private & away from all online devices."
-msgstr "시드 단어는 외부에 노출되지 않도록 하고, 인터넷 연결 기기에는 저장하지 않도록 주의하세요."
+msgstr "시드 단어는 외부에 노출되지 않도록 하고 온라인 기기에 저장하지 마세요."
 
 #. Inserts the child index (e.g. "Child #0")
 #: src/seedsigner/views/seed_views.py
@@ -1278,7 +1280,7 @@ msgstr "시드QR 확인"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Confirm SeedQR?"
-msgstr "시드QR을 확인할까요?"
+msgstr "시드QR 확인할까요?"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Scan your SeedQR"
@@ -1290,7 +1292,7 @@ msgstr "오류!"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Your transcribed SeedQR does not match your original seed!"
-msgstr "기록한 시드QR이 원래 시드와 일치하지 않습니다!"
+msgstr "기록한 시드QR이 원본과 일치하지 않습니다!"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Review SeedQR"
@@ -1307,7 +1309,9 @@ msgstr "기록한 시드QR이 성공적으로 스캔되었으며, 원본 시드�
 
 #: src/seedsigner/views/seed_views.py
 msgid "Sig type can't be auto-detected from this address. Please specify:"
-msgstr "이 주소에서는 서명 유형을 자동으로 감지할 수 없습니다. 아래에서 지정하세요:"
+msgstr ""
+"이 주소에서는 서명 유형을 자동으로 감지할 수 없습니다.\n"
+"아래에서 지정하세요:"
 
 #. Option when scanning for a matching address; skips ten addresses ahead
 #: src/seedsigner/views/seed_views.py
@@ -1389,27 +1393,27 @@ msgstr "계산 중..."
 #. Inserts the number of dice rolls needed for a 12-word mnemonic
 #: src/seedsigner/views/tools_views.py
 msgid "12 words ({} rolls)"
-msgstr "12개 단어 ({} 회)"
+msgstr "12개 단어 ({}회)"
 
 #. Inserts the number of dice rolls needed for a 24-word mnemonic
 #: src/seedsigner/views/tools_views.py
 msgid "24 words ({} rolls)"
-msgstr "24개 단어 ({} 회)"
+msgstr "24개 단어 ({}회)"
 
 #. Label to gather entropy through coin tosses
 #: src/seedsigner/views/tools_views.py
 msgid "Coin flip entropy"
-msgstr "동전 던져 엔트로피 생성"
+msgstr "동전 던지기"
 
 #. Label to gather entropy through user specified BIP-39 word
 #: src/seedsigner/views/tools_views.py
 msgid "Word selection entropy"
-msgstr "단어 선택하여 엔트로피 생성"
+msgstr "단어 선택"
 
 #. Label to allow user to default entropy as all-zeros
 #: src/seedsigner/views/tools_views.py
 msgid "Finalize with zeros"
-msgstr "엔트로피를 0으로 채워 완료"
+msgstr "0으로 채워 완료"
 
 #. label to calculate the last word of a BIP-39 mnemonic seed phrase
 #: src/seedsigner/views/tools_views.py
@@ -1539,12 +1543,10 @@ msgstr "옵션 비활성화"
 
 #: src/seedsigner/views/view.py
 msgid "Action Required"
-msgstr "조치가 필요합니다"
+msgstr "조치 필요"
 
 #: src/seedsigner/views/view.py
 msgid ""
 "You must remove the\n"
 "MicroSD card to continue."
-msgstr ""
-"계속하려면 MicroSD 카드를\n"
-"제거해야 합니다."
+msgstr "계속하려면 MicroSD 카드를 제거해야 합니다."
