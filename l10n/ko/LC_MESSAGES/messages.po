@@ -398,9 +398,7 @@ msgstr "다중서명 검증"
 msgid ""
 "Load your multisig wallet descriptor to verify your receive/self-transfer or"
 " change address."
-msgstr ""
-"다중서명 지갑 descriptor를 불러와 '나에게 송금'을 포함한 입금·잔돈 주소를 확인합니다.\n"
-" "
+msgstr "다중서명 지갑 descriptor를 불러와 '나에게 송금'을 포함한 입금·잔돈 주소를 확인합니다."
 
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "Descriptor Loaded"
@@ -1309,9 +1307,7 @@ msgstr "기록한 시드QR이 성공적으로 스캔되었으며, 원본 시드�
 
 #: src/seedsigner/views/seed_views.py
 msgid "Sig type can't be auto-detected from this address. Please specify:"
-msgstr ""
-"이 주소에서는 서명 유형을 자동으로 감지할 수 없습니다.\n"
-"아래에서 지정하세요:"
+msgstr "이 주소에서 서명 유형을 자동으로 감지할 수 없습니다. 아래에서 선택하세요:"
 
 #. Option when scanning for a matching address; skips ten addresses ahead
 #: src/seedsigner/views/seed_views.py
