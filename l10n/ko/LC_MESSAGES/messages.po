@@ -245,7 +245,7 @@ msgid ""
 "\n"
 "All in-memory data will be wiped."
 msgstr ""
-"시드사이너가 재시작 중입니다. \n"
+"시드사이너가 재시작됩니다. \n"
 "\n"
 "메모리에 있는 모든 데이터는 삭제됩니다."
 
@@ -255,7 +255,7 @@ msgstr "전원을 뽑으세요"
 
 #: src/seedsigner/gui/screens/screen.py
 msgid "It is safe to disconnect power at any time."
-msgstr "언제든지 전원을 분리해도 안전합니다."
+msgstr "언제든 전원을 분리해도 안전합니다."
 
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "Finalize Seed"
@@ -398,7 +398,7 @@ msgstr "다중서명 검증"
 msgid ""
 "Load your multisig wallet descriptor to verify your receive/self-transfer or"
 " change address."
-msgstr "다중서명 지갑 descriptor를 불러와 '나에게 송금'을 포함한 입금·잔돈 주소를 확인합니다."
+msgstr "다중서명 지갑 descriptor를 불러 '나에게 송금'을 포함한 입금·잔돈 주소를 확인합니다."
 
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "Descriptor Loaded"
@@ -512,7 +512,7 @@ msgstr "사용"
 #. current roll number vs total rolls (e.g. roll 7 of 50)
 #: src/seedsigner/gui/screens/tools_screens.py
 msgid "Dice Roll {}/{}"
-msgstr "주사위 굴리기 {}/{}"
+msgstr "주사위 던지기 {}/{}"
 
 #. Build the last word in a 12 or 24 word BIP-39 mnemonic seed phrase.
 #: src/seedsigner/gui/screens/tools_screens.py
@@ -585,11 +585,11 @@ msgstr "다음 {}개"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "Enabled"
-msgstr "활성화"
+msgstr "켜기"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "Disabled"
-msgstr "비활성화"
+msgstr "끄기"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "Prompt"
