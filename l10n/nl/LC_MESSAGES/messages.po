@@ -17,7 +17,7 @@ msgstr ""
 "Last-Translator: Dirkson643, 2026\n"
 "Language-Team: Dutch (https://app.transifex.com/seedsigner/teams/135832/nl/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 "Language: nl\n"
@@ -481,7 +481,7 @@ msgid ""
 "\n"
 "Donate onchain or LN at:"
 msgstr ""
-"SeedSigner is 100%% gratis & open source, uitsluitend gefinancierd door de Bitcoin-gemeenschap.\n"
+"SeedSigner is 100%% FOSS en volledig afhankelijk van donaties.\n"
 "\n"
 "Doneer onchain of met LN op:"
 
@@ -529,8 +529,8 @@ msgid ""
 "The {mnemonic_length}th word is built from {num_bits} more entropy bits plus"
 " auto-calculated checksum."
 msgstr ""
-"Het {mnemonic_length}e woord is opgebouwd uit {num_bits} extra entropie plus"
-" een automatisch berekende controlesom."
+"Het {mnemonic_length}e woord bestaat uit {num_bits} willekeurige bits plus "
+"een controlesom."
 
 #. current coin-flip number vs total flips (e.g. flip 3 of 4)
 #: src/seedsigner/gui/screens/tools_screens.py
@@ -1370,7 +1370,7 @@ msgstr ""
 
 #: src/seedsigner/views/settings_views.py
 msgid "Settings updated in temporary memory"
-msgstr "Instellingen bijgewerkt in tijdelijk geheugen"
+msgstr "Instellingen bijgewerkt in tijdelijk geheugen."
 
 #: src/seedsigner/views/tools_views.py
 msgid "New seed"
@@ -1508,7 +1508,7 @@ msgstr "Nog niet geïmplementeerd"
 
 #: src/seedsigner/views/view.py
 msgid "Back to main menu"
-msgstr "Terug naar hoofdmenu"
+msgstr "Terug naar het hoofdmenu"
 
 #. The network setting (mainnet/testnet/regtest) doesn't match the provided
 #. derivation path
