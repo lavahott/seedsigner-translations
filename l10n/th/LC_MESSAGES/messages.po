@@ -534,8 +534,8 @@ msgid ""
 "The {mnemonic_length}th word is built from {num_bits} more entropy bits plus"
 " auto-calculated checksum."
 msgstr ""
-"คำที่ {mnemonic_length} สร้างจากบิตเอนโทรปีเพิ่มเติมอีก {num_bits} บิต "
-"พร้อมกับ Checksum ที่คำนวณให้อัตโนมัติ"
+"คำที่ {mnemonic_length} ใช้บิตเอนโทรปีเพิ่มอีก {num_bits} บิต กับ Checksum "
+"อัตโนมัติ"
 
 #. current coin-flip number vs total flips (e.g. flip 3 of 4)
 #: src/seedsigner/gui/screens/tools_screens.py
