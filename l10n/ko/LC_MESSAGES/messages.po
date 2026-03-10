@@ -1563,7 +1563,7 @@ msgstr "설정 변경"
 #. "network" will be mainnet/testnet/regtest.
 #: src/seedsigner/views/view.py
 msgid "Current network setting ({network}) doesn't match {derivation_path}."
-msgstr "현재 네트워크({network})이(가) {derivation_path}와 맞지 않습니다."
+msgstr "현재 네트워크({network})가 {derivation_path}와 맞지 않습니다."
 
 #: src/seedsigner/views/view.py
 msgid "System Error"
