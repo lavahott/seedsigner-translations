@@ -1,23 +1,23 @@
 # Translations template for seedsigner.
-# Copyright (C) 2025 ORGANIZATION
+# Copyright (C) 2026 ORGANIZATION
 # This file is distributed under the same license as the seedsigner project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 # 
 # Translators:
 # tanveer A, 2025
-# okaybro, 2026
+# Chaitanya Keyal, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: seedsigner 0.8.6\n"
+"Project-Id-Version: seedsigner 0.8.7\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-12-26 07:32-0600\n"
+"POT-Creation-Date: 2026-03-05 22:02+0000\n"
 "PO-Revision-Date: 2022-04-29 13:50+0000\n"
-"Last-Translator: okaybro, 2026\n"
+"Last-Translator: Chaitanya Keyal, 2026\n"
 "Language-Team: Hindi (https://app.transifex.com/seedsigner/teams/135832/hi/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.16.0\n"
 "Language: hi\n"
@@ -530,7 +530,7 @@ msgid ""
 " auto-calculated checksum."
 msgstr ""
 "{mnemonic_length}वां शब्द {num_bits} और एंट्रॉपी बिट्स व ऑटो-कैलकुलेटेड "
-"चेकसम से मिलकर बना है।"
+"चेकसम से मिलकर बनता है।"
 
 #. current coin-flip number vs total flips (e.g. flip 3 of 4)
 #: src/seedsigner/gui/screens/tools_screens.py
@@ -603,6 +603,21 @@ msgstr "प्रॉम्प्ट"
 #: src/seedsigner/models/settings_definition.py
 msgid "Required"
 msgstr "आवश्यक"
+
+#. QR code format option; "default" = this is the format most wallets use
+#: src/seedsigner/models/settings_definition.py
+msgid "Animated (default)"
+msgstr "गतिशील (डिफ़ॉल्ट)"
+
+#. QR code format option (static = single frame, not animated)
+#: src/seedsigner/models/settings_definition.py
+msgid "Static"
+msgstr "स्थिर"
+
+#. QR code format option: old format that Specter Desktop used to use
+#: src/seedsigner/models/settings_definition.py
+msgid "Specter legacy"
+msgstr "स्पेक्ट्र लेगेसी"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "BTC"
@@ -697,6 +712,17 @@ msgstr "टैपरूट"
 msgid "Custom Derivation"
 msgstr "कस्टम डेरिवेशन"
 
+#. MicroSD notification duration setting - Display notification for 5 seconds
+#: src/seedsigner/models/settings_definition.py
+msgid "5 seconds"
+msgstr "5 सेकंड"
+
+#. MicroSD notification duration setting - Display notification until the SD
+#. card is removed
+#: src/seedsigner/models/settings_definition.py
+msgid "Until SD removed"
+msgstr "SD निकालने तक"
+
 #. Terminology used by Electrum seeds; equivalent to BIP-39 passphrase
 #: src/seedsigner/models/settings_definition.py
 msgid "Custom Extension"
@@ -715,10 +741,6 @@ msgid "Persistent settings"
 msgstr "स्थायी सेटिंग"
 
 #: src/seedsigner/models/settings_definition.py
-msgid "Coordinator software"
-msgstr "कोऑर्डिनेटर सॉफ्टवेयर"
-
-#: src/seedsigner/models/settings_definition.py
 msgid "Denomination display"
 msgstr "मूल्यवर्ग प्रदर्शन"
 
@@ -731,16 +753,16 @@ msgid "QR code density"
 msgstr "QR कोड डेंसिटी"
 
 #: src/seedsigner/models/settings_definition.py
-msgid "Xpub export"
-msgstr "Xpub एक्सपोर्ट"
-
-#: src/seedsigner/models/settings_definition.py
 msgid "Sig types"
 msgstr "सिग्नेचर के प्रकार"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "Script types"
 msgstr "स्क्रिप्ट के प्रकार"
+
+#: src/seedsigner/models/settings_definition.py
+msgid "Xpub QR format"
+msgstr "Xpub QR प्रारूप"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "Show xpub details"
@@ -771,6 +793,10 @@ msgid "Native Segwit only"
 msgstr "सिर्फ नेटिव सेगविट"
 
 #: src/seedsigner/models/settings_definition.py
+msgid "MicroSD notification duration"
+msgstr "MicroSD सूचना की अवधि"
+
+#: src/seedsigner/models/settings_definition.py
 msgid "Message signing"
 msgstr "संदेश हस्ताक्षर"
 
@@ -784,7 +810,7 @@ msgstr "गंभीर चेतावनी दिखाएं"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "Show QR brightness tips"
-msgstr "QR ब्राइटनेस टिप्स दिखाएं"
+msgstr "QR रोशनी के सुझाव दिखाएं"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "Show partner logos"
@@ -918,7 +944,7 @@ msgstr "{} पता डिस्क्रिप्टर से सत्या
 #. Variable is either "change" or "self-transfer".
 #: src/seedsigner/views/psbt_views.py
 msgid "Transaction's {} address could not be generated from your seed."
-msgstr "{} एड्रेस सीड से प्राप्त नहीं हुआ।"
+msgstr "{} पता सीड से प्राप्त नहीं हुआ।"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Suspicious Transaction"
@@ -1002,7 +1028,7 @@ msgstr " अज्ञात QR प्रकार"
 
 #: src/seedsigner/views/scan_views.py
 msgid "QRCode is invalid or is a data format not yet supported."
-msgstr "QR कोड अमान्य है या समर्थित फॉर्मेट का नहीं है।"
+msgstr "QR कोड अमान्य है या समर्थित प्रारूप का नहीं है।"
 
 #: src/seedsigner/views/scan_views.py src/seedsigner/views/view.py
 msgid "Back to Main Menu"
@@ -1164,6 +1190,10 @@ msgid "Export Xpub"
 msgstr "Xpub एक्सपोर्ट"
 
 #: src/seedsigner/views/seed_views.py
+msgid "Xpub QR Format"
+msgstr "Xpub QR प्रारूप"
+
+#: src/seedsigner/views/seed_views.py
 msgid "Xpub can be used to view all future transactions."
 msgstr "Xpub का उपयोग भविष्य के सभी लेन-देन देखने के लिए किया जा सकता है।"
 
@@ -1218,7 +1248,7 @@ msgstr "सत्यापित करें"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Skip"
-msgstr "इस चरण को छोड़ें"
+msgstr "छोड़ें"
 
 #. Inserts the word number (e.g. "Verify Word #1")
 #: src/seedsigner/views/seed_views.py
@@ -1338,6 +1368,11 @@ msgstr "लेन-देन पर वापस जाएं"
 msgid "Verify addr"
 msgstr "पता सत्यापित करें"
 
+#. Multisig policy. For a "2 of 3" policy, "threshold" = 2; "n" = 3
+#: src/seedsigner/views/seed_views.py
+msgid "{threshold} of {n}"
+msgstr "{n} में से {threshold}"
+
 #: src/seedsigner/views/seed_views.py
 msgid "Signing messages for custom derivation paths not supported"
 msgstr "कस्टम डेरिवेशन पाथ के लिए संदेशों पर हस्ताक्षर समर्थित नहीं है"
@@ -1357,6 +1392,24 @@ msgstr "इनपुट/आउटपुट जाँच"
 #: src/seedsigner/views/settings_views.py
 msgid "Dev Options"
 msgstr "डेवलपर विकल्प"
+
+#. Title of a warning dialog when configuring a setting that requires at least
+#. one option to be selected.
+#: src/seedsigner/views/settings_views.py
+msgid "Selection Required"
+msgstr "चयन अनिवार्य"
+
+#. The name of the setting being configured (e.g. "Script types") will be
+#. inserted.
+#: src/seedsigner/views/settings_views.py
+msgid "At least one option must be selected for \"{}\"."
+msgstr "\"{}\" के लिए कम से कम एक विकल्प चुनना अनिवार्य है।"
+
+#. Text for the button that returns the user to the setting configuration
+#. screen.
+#: src/seedsigner/views/settings_views.py
+msgid "Return to setting"
+msgstr "सेटिंग पर लौटें"
 
 #: src/seedsigner/views/settings_views.py
 msgid "Persistent Settings enabled. Settings saved to SD card."
@@ -1446,6 +1499,11 @@ msgstr "प्राप्ति पते"
 msgid "Change addresses"
 msgstr "चेंज पते"
 
+#. Multisig policy. For a "2 / 3 multisig" policy, "threshold" = 2; "n" = 3
+#: src/seedsigner/views/tools_views.py
+msgid "{threshold} / {n} multisig"
+msgstr "{threshold} / {n} मल्टीसिग"
+
 #. a status message that our payment addresses are being calculated
 #: src/seedsigner/views/tools_views.py
 msgid "Calculating addrs..."
@@ -1514,10 +1572,10 @@ msgstr "नेटवर्क मेल नहीं खा रहा"
 msgid "Change Setting"
 msgstr "सेटिंग बदलें"
 
-#. Inserts mainnet/testnet/regtest and derivation path
+#. "network" will be mainnet/testnet/regtest.
 #: src/seedsigner/views/view.py
-msgid "Current network setting ({}) doesn't match {}."
-msgstr "मौजूदा नेटवर्क सेटिंग ({}) {} से मेल नहीं खाती।"
+msgid "Current network setting ({network}) doesn't match {derivation_path}."
+msgstr "मौजूदा नेटवर्क सेटिंग ({network}) {derivation_path} से मेल नहीं खाती।"
 
 #: src/seedsigner/views/view.py
 msgid "System Error"
