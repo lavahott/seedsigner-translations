@@ -406,8 +406,8 @@ msgid ""
 "Load your multisig wallet descriptor to verify your receive/self-transfer or"
 " change address."
 msgstr ""
-"Charger votre descripteur portefeuille multisig pour vérifier votre adresse "
-"de réception / transfert à soi-même ou rendu."
+"Charger votre descripteur pf multisig pour vérifier votre adresse de "
+"réception / self-transfer ou rendu."
 
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "Descriptor Loaded"
@@ -879,8 +879,8 @@ msgid ""
 "Transaction has unsupported input script type, please verify your change "
 "addresses."
 msgstr ""
-"La transaction utilise un type de script d'entrée non pris en charge. "
-"Veuillez vérifier vos adresses de rendu."
+"Transaction utilise un type de script non pris en charge. Vérifiez vos "
+"adresses de rendu."
 
 #: src/seedsigner/views/psbt_views.py src/seedsigner/views/view.py
 msgid "Continue"
@@ -898,7 +898,7 @@ msgid ""
 "your wallet."
 msgstr ""
 "Cette transaction utilise la totalité de son montant. Aucun rendu ne sera "
-"effectué sur votre portefeuille."
+"effectué sur votre pf."
 
 #. Future-tense used to indicate that this transaction will send this amount,
 #. as opposed to "Send" on its own which could be misread as an instant
@@ -946,7 +946,7 @@ msgstr "Vérification du transfert à soi-même"
 msgid "Transaction's {} address could not be verified from wallet descriptor."
 msgstr ""
 "L'adresse {} de la transaction n'a pas pu être vérifiée à partir du "
-"descripteur du portefeuille."
+"descripteur du pf."
 
 #. Variable is either "change" or "self-transfer".
 #: src/seedsigner/views/psbt_views.py
