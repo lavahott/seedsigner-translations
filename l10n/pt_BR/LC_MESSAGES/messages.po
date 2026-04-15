@@ -9,7 +9,8 @@
 # rafaelpac, 2025
 # Dov Bitcoinheiro <bitcoinheiro@gmail.com>, 2025
 # Bit Cap, 2025
-# RAFAEL BRAGA, 2025
+# RAFAEL BRAGA, 2026
+# Paul Eipper, 2026
 # 
 #, fuzzy
 msgid ""
@@ -18,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2026-03-05 22:02+0000\n"
 "PO-Revision-Date: 2022-04-29 13:50+0000\n"
-"Last-Translator: RAFAEL BRAGA, 2025\n"
+"Last-Translator: Paul Eipper, 2026\n"
 "Language-Team: Portuguese (Brazil) (https://app.transifex.com/seedsigner/teams/135832/pt_BR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -170,7 +171,7 @@ msgstr "endereço de recebimento"
 #. Symbol for index number, e.g. "address #3"
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "#"
-msgstr ""
+msgstr "#"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "Address verified!"
@@ -614,17 +615,17 @@ msgstr "Obrigatório"
 #. QR code format option; "default" = this is the format most wallets use
 #: src/seedsigner/models/settings_definition.py
 msgid "Animated (default)"
-msgstr ""
+msgstr "Animado (padrão)"
 
 #. QR code format option (static = single frame, not animated)
 #: src/seedsigner/models/settings_definition.py
 msgid "Static"
-msgstr ""
+msgstr "Estático"
 
 #. QR code format option: old format that Specter Desktop used to use
 #: src/seedsigner/models/settings_definition.py
 msgid "Specter legacy"
-msgstr ""
+msgstr "Specter legado"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "BTC"
@@ -722,13 +723,13 @@ msgstr "Derivação personalizada"
 #. MicroSD notification duration setting - Display notification for 5 seconds
 #: src/seedsigner/models/settings_definition.py
 msgid "5 seconds"
-msgstr ""
+msgstr "5 segundos"
 
 #. MicroSD notification duration setting - Display notification until the SD
 #. card is removed
 #: src/seedsigner/models/settings_definition.py
 msgid "Until SD removed"
-msgstr ""
+msgstr "Até que o SD seja removido"
 
 #. Terminology used by Electrum seeds; equivalent to BIP-39 passphrase
 #: src/seedsigner/models/settings_definition.py
@@ -769,7 +770,7 @@ msgstr "Tipos de endereço"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "Xpub QR format"
-msgstr ""
+msgstr "Formato Xpub QR"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "Show xpub details"
@@ -801,7 +802,7 @@ msgstr "Somente Native Segwit"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "MicroSD notification duration"
-msgstr ""
+msgstr "Duração da notificação MicroSD"
 
 #: src/seedsigner/models/settings_definition.py
 msgid "Message signing"
@@ -933,7 +934,7 @@ msgstr "Autotransferência"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Verify multisig addr"
-msgstr ""
+msgstr "Verificar endereço multisig"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Verifying Change..."
@@ -974,7 +975,7 @@ msgstr "Aprovar transação"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Select different seed"
-msgstr ""
+msgstr "Selecione uma semente diferente"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Transaction Error"
@@ -1087,7 +1088,7 @@ msgstr "Criar uma seed"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Load a Seed"
-msgstr ""
+msgstr "Carregar uma semente"
 
 #. Inserts the word number (e.g. "Seed Word #6")
 #: src/seedsigner/views/seed_views.py
@@ -1157,7 +1158,7 @@ msgstr "Descartar Seed?"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Electrum Warning"
-msgstr ""
+msgstr "Aviso de Electrum"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Some features are disabled for Electrum seeds."
@@ -1201,7 +1202,7 @@ msgstr "Exportar Xpub"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Xpub QR Format"
-msgstr ""
+msgstr "Formato QR Xpub"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Xpub can be used to view all future transactions."
@@ -1380,7 +1381,7 @@ msgstr "Verifique o endereço"
 #. Multisig policy. For a "2 of 3" policy, "threshold" = 2; "n" = 3
 #: src/seedsigner/views/seed_views.py
 msgid "{threshold} of {n}"
-msgstr ""
+msgstr "{limiar} de {n}"
 
 #: src/seedsigner/views/seed_views.py
 msgid "Signing messages for custom derivation paths not supported"
@@ -1408,19 +1409,19 @@ msgstr "Opções de desenvolvedor"
 #. one option to be selected.
 #: src/seedsigner/views/settings_views.py
 msgid "Selection Required"
-msgstr ""
+msgstr "Seleção obrigatória"
 
 #. The name of the setting being configured (e.g. "Script types") will be
 #. inserted.
 #: src/seedsigner/views/settings_views.py
 msgid "At least one option must be selected for \"{}\"."
-msgstr ""
+msgstr "Pelo menos uma opção deve ser selecionada para \"{}\"."
 
 #. Text for the button that returns the user to the setting configuration
 #. screen.
 #: src/seedsigner/views/settings_views.py
 msgid "Return to setting"
-msgstr ""
+msgstr "Retornar à configuração"
 
 #: src/seedsigner/views/settings_views.py
 msgid "Persistent Settings enabled. Settings saved to SD card."
@@ -1514,7 +1515,7 @@ msgstr "Alterar endereços"
 #. Multisig policy. For a "2 / 3 multisig" policy, "threshold" = 2; "n" = 3
 #: src/seedsigner/views/tools_views.py
 msgid "{threshold} / {n} multisig"
-msgstr ""
+msgstr "{limiar} / {n} multisig"
 
 #. a status message that our payment addresses are being calculated
 #: src/seedsigner/views/tools_views.py
@@ -1589,6 +1590,8 @@ msgstr "Alterar configuração"
 #: src/seedsigner/views/view.py
 msgid "Current network setting ({network}) doesn't match {derivation_path}."
 msgstr ""
+"A configuração de rede atual ({network}) não corresponde a "
+"{derivation_path}."
 
 #: src/seedsigner/views/view.py
 msgid "System Error"
