@@ -944,16 +944,12 @@ msgstr "Vérification du transfert à soi-même"
 #. Variable is either "change" or "self-transfer".
 #: src/seedsigner/views/psbt_views.py
 msgid "Transaction's {} address could not be verified from wallet descriptor."
-msgstr ""
-"L'adresse {} de la transaction n'a pas pu être vérifiée à partir du "
-"descripteur du pf."
+msgstr "L'adresse {} n'a pu être vérifiée à partir du descripteur du pf."
 
 #. Variable is either "change" or "self-transfer".
 #: src/seedsigner/views/psbt_views.py
 msgid "Transaction's {} address could not be generated from your seed."
-msgstr ""
-"L'adresse {} de la transaction n'a pas pu être générée à partir de votre "
-"seed."
+msgstr "L'adresse {} n'a pu être générée à partir de votre seed."
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Suspicious Transaction"
