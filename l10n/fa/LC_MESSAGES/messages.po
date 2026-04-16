@@ -120,7 +120,7 @@ msgstr "OP_RETURN"
 #: src/seedsigner/gui/screens/psbt_screens.py
 #: src/seedsigner/views/psbt_views.py
 msgid "change"
-msgstr "باقی مانده بازگشتی به کیف پول"
+msgstr "باقی‌مانده"
 
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "Transaction Math"
@@ -145,7 +145,7 @@ msgstr[1] "گیرنده ها"
 #. Denonination is inserted (e.g. your "btc change" or "sats change")
 #: src/seedsigner/gui/screens/psbt_screens.py
 msgid "{} change"
-msgstr "واحد پول باقی مانده {}"
+msgstr "واحد پول باقی‌مانده {}"
 
 #. Describes the address type (change or receive)
 #: src/seedsigner/gui/screens/psbt_screens.py
@@ -402,7 +402,7 @@ msgid ""
 " change address."
 msgstr ""
 "توصیفگر کیف پول چند امضایی خود را برای صحت سنجی آدرس دریافتی عادی/انتقال به "
-"خود یا آدرس دریافتی باقی مانده وارد کنید."
+"خود یا آدرس دریافتی باقی‌مانده وارد کنید."
 
 #: src/seedsigner/gui/screens/seed_screens.py
 msgid "Descriptor Loaded"
@@ -930,7 +930,7 @@ msgstr "تأیید آدرس چند امضایی"
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Verifying Change..."
-msgstr "تأیید مبلغ باقیمانده دریافتی ..."
+msgstr "تأیید مبلغ باقی‌مانده دریافتی ..."
 
 #: src/seedsigner/views/psbt_views.py
 msgid "Verifying Self-Transfer..."
